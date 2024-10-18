@@ -1,6 +1,6 @@
 var categoriesSwiper = new Swiper("#Categories", {
     slidesPerView: "auto",
-    
+    slidesOffsetAfter: 30,
 });
 
 const tabButton = document.querySelectorAll(".tab-button");
