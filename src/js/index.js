@@ -1,6 +1,5 @@
 var categoriesSwiper = new Swiper("#Categories", {
     slidesPerView: "auto",
-    slidesOffsetBefore: 15,
     slidesOffsetAfter: 45,
 });
 
