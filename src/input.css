@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-[#DAE1E9] font-poppins text-[#100531];
+    @apply bg-black font-poppins text-[#100531];
 }
 
 h3 {

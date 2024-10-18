@@ -4,12 +4,6 @@ var categoriesSwiper = new Swiper("#Categories", {
     slidesOffsetAfter: 20,
     slidesOffsetBefore: 20,
 });
-var startYourSwiper = new Swiper("#PopularKosSlider", {
-    slidesPerView: "auto",
-    spaceBetween: 20,
-    slidesOffsetAfter: 20,
-    slidesOffsetBefore: 20,
-});
 
 const tabButton = document.querySelectorAll(".tab-button");
 const article = document.querySelectorAll(".article");
