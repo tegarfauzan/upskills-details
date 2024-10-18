@@ -1,6 +1,6 @@
 var categoriesSwiper = new Swiper("#Categories", {
     slidesPerView: "auto",
-    spaceBetween: 20,
+    spaceBetween: 30,
     
 });
 
