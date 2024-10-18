@@ -14,9 +14,11 @@
         <div id="main" class="mx-auto flex min-h-screen w-full max-w-[1280px] flex-col gap-[80px] bg-white px-[20px] sm:px-[50px] lg:px-[75px]">
             <nav class="mt-[30px] w-full">
                 <div class="flex items-center justify-between">
-                    <div id="logo" class="h-[50px] w-[146px] shrink-0 overflow-hidden">
-                        <img src="assets/images/logos/logo.svg" class="h-full w-full object-cover" alt="icon" />
-                    </div>
+                    <a href="#">
+                        <div id="logo" class="h-[50px] w-[146px] shrink-0 overflow-hidden">
+                            <img src="assets/images/logos/logo.svg" class="h-full w-full object-cover" alt="icon" />
+                        </div>
+                    </a>
                     <ul class="hidden items-center justify-between gap-[30px] lg:flex">
                         <li>
                             <a href="#" class="font-semibold">Home</a>
@@ -34,8 +36,12 @@
                             <a href="#" class="font-semibold">About</a>
                         </li>
                     </ul>
-                    <a href="#" class="hidden rounded-[50px] bg-upskill-blue px-5 py-4 font-semibold text-white lg:block">My Submission</a>
-                    <img src="assets/images/icons/burger-menu.svg" alt="icon" class="h-6 w-6 shrink-0 lg:hidden" />
+                    <a href="#" class="hidden lg:block">
+                        <p class="rounded-[50px] bg-upskill-blue px-5 py-4 font-semibold text-white">My Submission</p>
+                    </a>
+                    <button type="button" class="lg:hidden">
+                        <img src="assets/images/icons/burger-menu.svg" alt="icon" class="h-6 w-6 shrink-0" />
+                    </button>
                 </div>
             </nav>
             <header class="flex w-full flex-col gap-y-10">
