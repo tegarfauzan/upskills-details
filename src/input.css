@@ -18,5 +18,8 @@ p {
     @apply text-lg leading-[38px] text-[#100531];
 }
 .article ul {
-    @apply list-disc text-lg leading-[38px] text-[#100531] ml-8;
+    @apply ml-8 list-disc text-lg leading-[38px] text-[#100531];
+}
+ul li {
+    @apply ml-8 list-disc whitespace-normal break-words text-lg leading-[38px] text-[#100531];
 }
