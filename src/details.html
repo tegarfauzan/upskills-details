@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="output.css" rel="stylesheet" />
+        <title>Ngekos</title>
+    </head>
+    <body>
+        <div id="main" class="mx-auto flex min-h-screen w-full max-w-[1280px] flex-col gap-[80px] bg-white px-[75px]">
+            <nav class="mt-[30px] w-full">
+                <div class="flex items-center justify-between">
+                    <div id="logo" class="h-[50px] w-[146px] shrink-0 overflow-hidden">
+                        <img src="assets/images/logos/logo.svg" class="h-full w-full object-cover" alt="icon" />
+                    </div>
+                    <ul class="flex items-center justify-between gap-[30px]">
+                        <li>
+                            <a href="#" class="font-semibold">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="font-semibold">Categories</a>
+                        </li>
+                        <li>
+                            <a href="#" class="font-semibold">Challenges</a>
+                        </li>
+                        <li>
+                            <a href="#" class="font-semibold">Stories</a>
+                        </li>
+                        <li>
+                            <a href="#" class="font-semibold">About</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="rounded-[50px] bg-upskill-blue px-5 py-4 font-semibold text-white">My Submission</a>
+                </div>
+            </nav>
+            <header class="flex w-full flex-col gap-y-10">
+                <div class="mx-auto flex w-fit items-center gap-[14px] rounded-full border border-upskill-gray px-5 py-[10px]">
+                    <img src="assets/images/icons/product-design.svg" alt="icon" class="h-6 w-6 shrink-0" />
+                    <p class="font-semibold">Product Design</p>
+                </div>
+                <div class="title mx-auto max-w-[751px] text-center text-[50px] font-extrabold leading-[60px]">Challenge Wireframe to Visual Design dengan Figma</div>
+                <div class="image mx-auto flex aspect-auto w-[650px] overflow-hidden rounded-[20px]">
+                    <img src="assets/images/thumbnails/hero.png" alt="icon" class="h-full w-full object-cover" />
+                </div>
+            </header>
+            <section id="ContainerTabs" class="mx-auto max-w-[881px]">
+                <div class="tabs mb-10 flex items-center justify-center gap-x-[30px]">
+                    <button type="button" class="tab-button group relative flex h-[52px] w-fit items-center gap-[14px] rounded-full border border-upskill-gray px-5 transition-all duration-300 has-[:checked]:border-none has-[:checked]:bg-black">
+                        <input checked type="radio" name="tab" id="" class="absolute bottom-0 left-0 right-0 top-0 opacity-0" />
+                        <img src="assets/images/icons/tab-active.svg" alt="icon" class="hidden h-6 w-6 shrink-0 transition-all duration-300 group-[:has(input:checked)]:block" />
+                        <img src="assets/images/icons/tab-nonactive.svg" alt="icon" class="block h-6 w-6 shrink-0 transition-all duration-300 group-[:has(input:checked)]:hidden" />
+                        <p class="whitespace-nowrap font-semibold text-upskill-blue transition-all duration-300 group-[:has(input:checked)]:text-white">About</p>
+                    </button>
+                    <button type="button" class="tab-button group relative flex h-[52px] w-fit items-center gap-[14px] rounded-full border border-upskill-gray px-5 transition-all duration-300 has-[:checked]:border-none has-[:checked]:bg-black">
+                        <input type="radio" name="tab" id="" class="absolute bottom-0 left-0 right-0 top-0 opacity-0" />
+                        <img src="assets/images/icons/tab-active.svg" alt="icon" class="hidden h-6 w-6 shrink-0 transition-all duration-300 group-[:has(input:checked)]:block" />
+                        <img src="assets/images/icons/tab-nonactive.svg" alt="icon" class="block h-6 w-6 shrink-0 transition-all duration-300 group-[:has(input:checked)]:hidden" />
+                        <p class="whitespace-nowrap font-semibold text-upskill-blue transition-all duration-300 group-[:has(input:checked)]:text-white">The Prize</p>
+                    </button>
+                    <button type="button" class="tab-button group relative flex h-[52px] w-fit items-center gap-[14px] rounded-full border border-upskill-gray px-5 transition-all duration-300 has-[:checked]:border-none has-[:checked]:bg-black">
+                        <input type="radio" name="tab" id="" class="absolute bottom-0 left-0 right-0 top-0 opacity-0" />
+                        <img src="assets/images/icons/tab-active.svg" alt="icon" class="hidden h-6 w-6 shrink-0 transition-all duration-300 group-[:has(input:checked)]:block" />
+
+                        <img src="assets/images/icons/tab-nonactive.svg" alt="icon" class="block h-6 w-6 shrink-0 transition-all duration-300 group-[:has(input:checked)]:hidden" />
+                        <p class="whitespace-nowrap font-semibold text-upskill-blue transition-all duration-300 group-[:has(input:checked)]:text-white">Participants</p>
+                    </button>
+                    <button type="button" class="tab-button group relative flex h-[52px] w-fit items-center gap-[14px] rounded-full border border-upskill-gray px-5 transition-all duration-300 has-[:checked]:border-none has-[:checked]:bg-black">
+                        <input type="radio" name="tab" id="" class="absolute bottom-0 left-0 right-0 top-0 opacity-0" />
+                        <img src="assets/images/icons/tab-active.svg" alt="icon" class="hidden h-6 w-6 shrink-0 transition-all duration-300 group-[:has(input:checked)]:block" />
+                        <img src="assets/images/icons/tab-nonactive.svg" alt="icon" class="block h-6 w-6 shrink-0 transition-all duration-300 group-[:has(input:checked)]:hidden" />
+                        <p class="whitespace-nowrap font-semibold text-upskill-blue transition-all duration-300 group-[:has(input:checked)]:text-white">Author</p>
+                    </button>
+                </div>
+                <div class="article">
+                    <h3>About Challenge</h3>
+                    <p>Kami sedang membuka challenge untuk para UI designer, tugas utamanya adalah mengubah wireframe menjadi visual design menggunakan figma.</p>
+                    <p>Buka url joinbwa.com/wf123 untuk melihat wireframe yang perlu dijadikan ke bentuk visual design, ikuti beberapa inspirasi design style yang kami sukai.</p>
+                    <p>Gunakan beberapa inspirasi berikut:</p>
+                    <ul>
+                        <li>https://dribbble.com/buildwithangga</li>
+                        <li>https://dribbble.com/buildwithangga</li>
+                        <li>https://dribbble.com/buildwithangga</li>
+                    </ul>
+                    <p>Apabila telah selesai, copy projek figma kalian dan submit pada form challenge ini.</p>
+                    <p>Kami tidak akan menggunakan hasil challenge untuk keperluaan perusahaan, challenge ini diadakan hanya untuk mendapatkan kandidat tepat untuk magang online di BWA.</p>
+                    <h3>Persyaratan</h3>
+                    <ul>
+                        <li>Wajib menggunakan software figma versi terbaru</li>
+                        <li>Jika menggunakan icon, illustration, dan photo pastikan anda memiliki license tersebut atau gunakan yang bebas license</li>
+                        <li>Dilarang meniru 100% style dari inspirasi design yang telah diberikan</li>
+                        <li>Membuat prototype sederhana akan menjadi nilai tambah</li>
+                        <li>Gunakan google fonts atau yang telah disediakan oleh figma secara gratis</li>
+                        <li>Tidak boleh dibantu atau dikerjakan oleh orang lain selain diri anda sendiri</li>
+                        <li>Boleh menggunakan AI untuk mempercepat proses pengerjaan</li>
+                    </ul>
+                </div>
+                <div class="article hidden">
+                    <h3>Prize for You</h3>
+                    <p>Saat ini kami mencari 1 orang pemenang yang nantinya akan magang di BuildWithAngga sebagai junior UI designer dalam membantu banyak orang mempelajari ilmu coding dan design dalam mencapai pekerjaan impian mereka.</p>
+                </div>
+                <div class="article hidden">
+                    <h3>Challenge Submissions</h3>
+                    <div class="flex flex-col gap-5">
+                        <div class="history flex items-center justify-between rounded-[20px] border border-upskill-gray p-5">
+                            <div class="flex items-center gap-[18px]">
+                                <img src="assets/images/icons/challenge.svg" alt="icon" class="h-[60px] w-[60px] shrink-0" />
+                                <div class="space-y-[2px]">
+                                    <h4 class="text-lg font-semibold leading-[27px]">Angga Risky</h4>
+                                    <p class="text-sm">Submitted at 18 Jan 2024 • 10 PM</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg font-semibold leading-[27px]">Status:</p>
+                                <strong class="text-upskill-red">Eliminated</strong>
+                            </div>
+                        </div>
+                        <div class="history flex items-center justify-between rounded-[20px] border border-upskill-gray p-5">
+                            <div class="flex items-center gap-[18px]">
+                                <img src="assets/images/icons/challenge.svg" alt="icon" class="h-[60px] w-[60px] shrink-0" />
+                                <div class="space-y-[2px]">
+                                    <h4 class="text-lg font-semibold leading-[27px]">Angga Risky</h4>
+                                    <p class="text-sm">Submitted at 18 Jan 2024 • 10 PM</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg font-semibold leading-[27px]">Status:</p>
+                                <strong class="text-upskill-orange">Waiting for Review</strong>
+                            </div>
+                        </div>
+                        <div class="history flex items-center justify-between rounded-[20px] border border-upskill-gray p-5">
+                            <div class="flex items-center gap-[18px]">
+                                <img src="assets/images/icons/challenge.svg" alt="icon" class="h-[60px] w-[60px] shrink-0" />
+                                <div class="space-y-[2px]">
+                                    <h4 class="text-lg font-semibold leading-[27px]">Angga Risky</h4>
+                                    <p class="text-sm">Submitted at 18 Jan 2024 • 10 PM</p>
+                                </div>
+                            </div>
+                            <span class="rounded-full bg-upskill-blue-light px-5 py-[10px] font-semibold text-white">The Winner</span>
+                            <div>
+                                <p class="text-lg font-semibold leading-[27px]">Status:</p>
+                                <strong class="text-upskill-green">Approved!</strong>
+                            </div>
+                        </div>
+                        <div class="history flex items-center justify-between rounded-[20px] border border-upskill-gray p-5">
+                            <div class="flex items-center gap-[18px]">
+                                <img src="assets/images/icons/challenge.svg" alt="icon" class="h-[60px] w-[60px] shrink-0" />
+                                <div class="space-y-[2px]">
+                                    <h4 class="text-lg font-semibold leading-[27px]">Angga Risky</h4>
+                                    <p class="text-sm">Submitted at 18 Jan 2024 • 10 PM</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg font-semibold leading-[27px]">Status:</p>
+                                <strong class="text-upskill-orange">Waiting for Review</strong>
+                            </div>
+                        </div>
+                        <div class="history flex items-center justify-between rounded-[20px] border border-upskill-gray p-5">
+                            <div class="flex items-center gap-[18px]">
+                                <img src="assets/images/icons/challenge.svg" alt="icon" class="h-[60px] w-[60px] shrink-0" />
+                                <div class="space-y-[2px]">
+                                    <h4 class="text-lg font-semibold leading-[27px]">Angga Risky</h4>
+                                    <p class="text-sm">Submitted at 18 Jan 2024 • 10 PM</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg font-semibold leading-[27px]">Status:</p>
+                                <strong class="text-upskill-orange">Waiting for Review</strong>
+                            </div>
+                        </div>
+                        <div class="history flex items-center justify-between rounded-[20px] border border-upskill-gray p-5">
+                            <div class="flex items-center gap-[18px]">
+                                <img src="assets/images/icons/challenge.svg" alt="icon" class="h-[60px] w-[60px] shrink-0" />
+                                <div class="space-y-[2px]">
+                                    <h4 class="text-lg font-semibold leading-[27px]">Angga Risky</h4>
+                                    <p class="text-sm">Submitted at 18 Jan 2024 • 10 PM</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg font-semibold leading-[27px]">Status:</p>
+                                <strong class="text-upskill-orange">Waiting for Review</strong>
+                            </div>
+                        </div>
+                        <div class="history flex items-center justify-between rounded-[20px] border border-upskill-gray p-5">
+                            <div class="flex items-center gap-[18px]">
+                                <img src="assets/images/icons/challenge.svg" alt="icon" class="h-[60px] w-[60px] shrink-0" />
+                                <div class="space-y-[2px]">
+                                    <h4 class="text-lg font-semibold leading-[27px]">Angga Risky</h4>
+                                    <p class="text-sm">Submitted at 18 Jan 2024 • 10 PM</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg font-semibold leading-[27px]">Status:</p>
+                                <strong class="text-upskill-orange">Waiting for Review</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="pb-[170px]">
+                    <h3 class="mb-[10px] mt-[50px]">Submit Your Submission</h3>
+                    <p>Lampirkan hasil challenge anda di bawah, pastikan Project URL dapat diakses secara publik, anda dapat uji coba terlebih dahulu dengan membukanya di incognito.</p>
+                    <div class="container-input mt-[10px] grid w-full grid-cols-2 gap-[30px] rounded-[20px] bg-upskill-gray p-[30px]">
+                        <label class="space-y-3">
+                            <h4 class="font-semibold">Complete Name</h4>
+                            <div class="relative h-[52px] w-full overflow-hidden rounded-full border border-upskill-gray">
+                                <input type="text" required class="h-full w-full bg-white pl-[54px] pr-5 placeholder:text-upskill-blue focus:outline-none" placeholder="Write your name" />
+                                <img src="assets/images/icons/product-design.svg" alt="icon" class="absolute left-5 top-1/2 h-6 w-6 shrink-0 -translate-y-1/2" />
+                            </div>
+                        </label>
+                        <label class="space-y-3">
+                            <h4 class="font-semibold">Email Address</h4>
+                            <div class="relative h-[52px] w-full overflow-hidden rounded-full border border-upskill-gray">
+                                <input type="text" required class="h-full w-full bg-white pl-[54px] pr-5 placeholder:text-upskill-blue focus:outline-none" placeholder="Write your email address" />
+                                <img src="assets/images/icons/product-design.svg" alt="icon" class="absolute left-5 top-1/2 h-6 w-6 shrink-0 -translate-y-1/2" />
+                            </div>
+                        </label>
+                        <label class="space-y-3">
+                            <h4 class="font-semibold">Project URL</h4>
+                            <div class="relative h-[52px] w-full overflow-hidden rounded-full border border-upskill-gray">
+                                <input type="text" required class="h-full w-full bg-white pl-[54px] pr-5 placeholder:text-upskill-blue focus:outline-none" placeholder="Provide the project URL" />
+                                <img src="assets/images/icons/product-design.svg" alt="icon" class="absolute left-5 top-1/2 h-6 w-6 shrink-0 -translate-y-1/2" />
+                            </div>
+                        </label>
+                        <div class="flex items-end">
+                            <button type="submit" class="h-14 w-full rounded-full bg-upskill-blue-light font-semibold text-white shadow-[0px_8px_15px_0px_#541FEB80]">Send My Submission</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/details.js"></script>
+    </body>
+</html>

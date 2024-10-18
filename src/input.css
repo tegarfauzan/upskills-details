@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#DAE1E9] font-poppins text-[#100531];
+}
+
+h3 {
+    @apply mb-5 text-[22px] font-bold leading-[33px] text-[#100531];
+}
+
+h3:not(:first-child) {
+    @apply mt-[50px];
+}
+
+p {
+    @apply text-lg leading-[38px] text-[#100531];
+}
+.article ul {
+    @apply list-disc text-lg leading-[38px] text-[#100531] ml-8;
+}
