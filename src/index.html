@@ -11,8 +11,8 @@
         <title>Ngekos</title>
     </head>
     <body>
-        <div id="main" class="mx-auto flex min-h-screen w-full max-w-[1280px] flex-col gap-[80px] bg-white px-[20px] sm:px-[50px] lg:px-[75px]">
-            <nav class="mt-[30px] w-full">
+        <div id="main" class="mx-auto flex min-h-screen w-full max-w-[1280px] flex-col gap-[80px] bg-white">
+            <nav class="mt-[30px] w-full px-[20px] sm:px-[50px] lg:px-[75px]">
                 <div class="flex items-center justify-between">
                     <a href="#">
                         <div id="logo" class="h-[50px] w-[146px] shrink-0 overflow-hidden">
@@ -44,7 +44,7 @@
                     </button>
                 </div>
             </nav>
-            <header class="flex w-full flex-col gap-y-10">
+            <header class="flex w-full flex-col gap-y-10 px-[20px] sm:px-[50px] lg:px-[75px]">
                 <div class="mx-auto flex w-fit items-center gap-[14px] rounded-full border border-upskill-gray px-5 py-[10px]">
                     <img src="assets/images/icons/product-design.svg" alt="icon" class="h-6 w-6 shrink-0" />
                     <p class="font-semibold">Product Design</p>
@@ -56,10 +56,10 @@
                     <img src="assets/images/thumbnails/hero.png" alt="icon" class="h-full w-full object-cover" />
                 </div>
             </header>
-            <section id="ContainerTabs" class="px-[20px] sm:px-[25px] lg:px-[125px]">
+            <section id="ContainerTabs" class="">
                 <div class="sm:px-[20px] lg:px-[50px]">
                     <div id="Categories" class="swiper overflow-x-hidden">
-                        <div class="tabs swiper-wrapper mb-10 flex w-full justify-between gap-[10px] sm:gap-[20px] lg:gap-[30px] items-center">
+                        <div class="tabs swiper-wrapper sm:justify-center mb-10 flex w-full items-center justify-between gap-[10px] sm:gap-[20px] lg:gap-[30px]">
                             <button type="button" class="tab-button swiper-slide group relative flex w-fit items-center gap-[14px] rounded-full border border-upskill-gray px-5 py-[10px] transition-all duration-300 has-[:checked]:border-none has-[:checked]:bg-black">
                                 <input checked type="radio" name="tab" id="" class="absolute bottom-0 left-0 right-0 top-0 opacity-0" />
                                 <img src="assets/images/icons/tab-active.svg" alt="icon" class="hidden h-6 w-6 shrink-0 transition-all duration-300 group-[:has(input:checked)]:block" />
@@ -232,7 +232,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="pb-[170px]">
+                <form class="px-[20px] pb-[170px] sm:px-[25px] lg:px-[125px]">
                     <h3 class="mb-[10px] mt-[50px]">Submit Your Submission</h3>
                     <p>Lampirkan hasil challenge anda di bawah, pastikan Project URL dapat diakses secara publik, anda dapat uji coba terlebih dahulu dengan membukanya di incognito.</p>
                     <div class="container-input mt-[10px] grid w-full grid-cols-1 gap-[30px] rounded-[20px] bg-upskill-gray p-[30px] lg:grid-cols-2">

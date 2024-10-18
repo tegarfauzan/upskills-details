@@ -17,6 +17,9 @@ h3:not(:first-child) {
 p {
     @apply text-lg leading-[38px] text-[#100531];
 }
+.article {
+    @apply px-[20px] sm:px-[25px] lg:px-[125px];
+}
 .article ul {
     @apply ml-8 list-disc text-lg leading-[38px] text-[#100531];
 }
